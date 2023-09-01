@@ -80,6 +80,7 @@
                 <th>Password</th>
             </tr>
             </thead>
+            <tbody class="text-small">
         </table>
     </div>
 </div>
@@ -96,10 +97,10 @@
             pageLength:[5,10,15,30,50,100],
             pageLength: 10,
             ajax:{
-                url: 'views/com/dashboardcom.php',
+                url: 'listausuarios.php',
                 dataSrc: '',
                 type: "POST",
-                data: {'request':'listliqdash'},
+                //data: {'request':'listliqdash'},
             },
             responsive:{
                 details:{
