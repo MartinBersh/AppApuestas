@@ -72,7 +72,7 @@
 <hr>
 <div class="row">
     <div class="col-lg-10">
-        <table id="tblusuario" class="table table-striped w-100 shadow">
+        <table id="tblusuarios" class="table table-striped w-100 shadow">
             <thead>
             <tr>
                 <th></th>
@@ -89,7 +89,7 @@
     $(document).ready(function(){
         var table;
         //var activo = usuarioActivo();
-        table = $("#tblLiqdash").DataTable({
+        table = $("#tblusuarios").DataTable({
             dom: 'Bfrtip',
             buttons:[
                 'excel','print', 'pdf','pageLength'
